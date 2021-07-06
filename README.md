@@ -34,7 +34,7 @@ pip install pyAesCrypt
 
 ## Run
 ```
-python main.py
+python3 main.py
 ```
 
 ## Suggestions
