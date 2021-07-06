@@ -51,5 +51,5 @@ Diyelimki bu programı 2 yıldır kullanıyorsunuz 2020-2021 yılları olsun. 13
 
 Çöz butonuna tıkladıktan sonra eğer bir sorun çıkmazsa belirttiğiniz dosya aynı klasörleri takip edecek şekilde aynı gün ismi ile belirttiğiniz ay klasörüne kayıt edilmiş olucaktır
 
-##Contact
+## Contact
 Eğer bir sorun ile karşılaşırsanız [İnstagram](https://www.instagram.com/e.mirdes) dan yazabilirsiniz iyi çalışmalar :)
