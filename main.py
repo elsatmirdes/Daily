@@ -131,8 +131,27 @@ class Daily(QtWidgets.QMainWindow):
                     os.mkdir(f"dailytext/{self.username}/{year}/{month}")
             else:
                 os.mkdir(f"dailytext/{self.username}/{year}/")
+
+                if os.path.isdir(f"dailytext/{self.username}/{year}/{month}"):
+                    pass
+                else:
+                    os.mkdir(f"dailytext/{self.username}/{year}/{month}")
+            pass
         else:
             os.mkdir(f"dailytext/{self.username}")
+            if os.path.isdir(f"dailytext/{self.username}/{year}/"):
+
+                if os.path.isdir(f"dailytext/{self.username}/{year}/{month}"):
+                    pass
+                else:
+                    os.mkdir(f"dailytext/{self.username}/{year}/{month}")
+            else:
+                os.mkdir(f"dailytext/{self.username}/{year}/")
+
+                if os.path.isdir(f"dailytext/{self.username}/{year}/{month}"):
+                    pass
+                else:
+                    os.mkdir(f"dailytext/{self.username}/{year}/{month}")
 
         with open(f"dailytext/{self.username}/{year}/{month}/{day}.txt", "w",encoding="utf-8") as file:
             file.write(text)
